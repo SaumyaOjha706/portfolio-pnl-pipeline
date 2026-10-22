@@ -45,7 +45,7 @@ flowchart LR
     V --> A
 ```
 
-Orchestrated as a Databricks Job: `bronze → silver → gold`, with task dependencies and retries (see [`pipeline_job.yml`](pipeline_job.yml)).
+Orchestrated as a Databricks Job: `bronze → silver → gold`, with task dependencies (see [`pipeline_job.yml`](pipeline_job.yml)).
 
 ## Data
 
